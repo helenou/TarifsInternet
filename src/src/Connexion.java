@@ -24,33 +24,32 @@ List<Integer> listConnect = new ArrayList<Integer>();
 
 public Connexion(){
 		
-		mapHourPrice.put(0,5);
-		mapHourPrice.put(1,5);
-		mapHourPrice.put(2,5);
-		mapHourPrice.put(3,5);
-		mapHourPrice.put(4,5);
-		mapHourPrice.put(5,5);
-		mapHourPrice.put(6,5);
+//		for(int h=0; h<7; h++) {
+//			mapHourPrice.put(h, 5);
+//		}
+//		for(int h=17; h<24; h++) {
+//			mapHourPrice.put(h, 5);
+//		}
+//
+//		for(int h=7; h<17; h++) {
+//			mapHourPrice.put(h, 10);
+//		}
+//		
+	}
 
-		mapHourPrice.put(7,10);
-		mapHourPrice.put(8,10);
-		mapHourPrice.put(9,10);
-		mapHourPrice.put(10,10);
-		mapHourPrice.put(11,10);
-		mapHourPrice.put(12,10);
-		mapHourPrice.put(13,10);
-		mapHourPrice.put(14,10);
-		mapHourPrice.put(15,10);
-		mapHourPrice.put(16,10);
-		mapHourPrice.put(17,10);
 
-		mapHourPrice.put(18,5);
-		mapHourPrice.put(19,5);
-		mapHourPrice.put(20,5);
-		mapHourPrice.put(21,5);	
-		mapHourPrice.put(22,5);
-		mapHourPrice.put(23,5);
-		mapHourPrice.put(24,5);
+	public void initTarifs() {
+		for(int h=0; h<7; h++) {
+			mapHourPrice.put(h, 5);
+		}
+		for(int h=17; h<24; h++) {
+			mapHourPrice.put(h, 5);
+		}
+
+		for(int h=7; h<17; h++) {
+			mapHourPrice.put(h, 10);
+		}
+				
 	}
 
 

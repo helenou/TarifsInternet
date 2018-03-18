@@ -7,6 +7,12 @@ public class Main {
 	public static void main(String[] args) {
 		Connexion connectNet = new Connexion();
 		
+		connectNet.initTarifs();
+//		connectNet.printTarifsMap();
+		
+		boolean b= true;
+		
+	
 		connectNet.collectData();
 		
 		connectNet.getListConnect();
@@ -16,5 +22,6 @@ public class Main {
 		System.out.println("pour un montant total de :"+connectNet.calcResultat() +" francs.");
 
 	}
+	
 
 }
